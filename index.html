@@ -7,7 +7,7 @@
 
 <style>
 
-/* ================= BACKGROUND ================= */
+/* ================= Background ================= */
 
 body {
     background-color: #eef5ff;
@@ -16,13 +16,15 @@ body {
     background-position: center;
 }
 
-/* ================= COLOR ================= */
+
+/* ================= Color ================= */
 
 body {
     color: #222;
 }
 
-/* ================= TEXT ================= */
+
+/* ================= Text ================= */
 
 h1, h2, h3 {
     text-align: center;
@@ -35,6 +37,557 @@ p {
     text-indent: 30px;
 }
 
+
+/* ================= Font ================= */
+
+body {
+    font-family: Arial, Tahoma, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+}
+
+
+/* ================= Links ================= */
+
+a:link {
+    color: blue;
+    text-decoration: none;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+a:active {
+    color: green;
+}
+
+
+/* ================= List ================= */
+
+ul {
+    list-style-type: square;
+    list-style-image: none;
+    list-style-position: inside;
+    list-style: square inside;
+}
+
+
+/* ================= Border ================= */
+
+form {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #2d89ef;
+
+    border-top: 3px solid #2d89ef;
+    border-right: 3px solid #2d89ef;
+    border-bottom: 3px solid #2d89ef;
+    border-left: 3px solid #2d89ef;
+
+    width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+
+/* ================= Table ================= */
+
+table {
+    border-collapse: collapse;
+    color: #222;
+    height: 150px;
+    width: 70%;
+    margin: 20px auto;
+}
+
+th, td {
+    border: 1px solid #333;
+    padding: 10px;
+}
+
+
+/* ================= Outline ================= */
+
+iframe,
+object {
+    outline-width: 2px;
+    outline-style: solid;
+    outline-color: #2d89ef;
+}
+
+
+/* ================= Margin ================= */
+
+h2 {
+    margin-top: 25px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+
+
+/* ================= Padding ================= */
+
+h1 {
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+
+
+/* ================= Display ================= */
+
+input {
+    display: inline-block;
+}
+
+
+/* ================= Visibility ================= */
+
+.visibility-example {
+    visibility: visible;
+}
+
+
+/* ================= Position ================= */
+
+h1 {
+    position: relative;
+    top: 0;
+    right: 0;
+}
+
+
+/* ================= Z-index ================= */
+
+h1 {
+    z-index: 10;
+}
+
+
+/* ================= Float ================= */
+
+img {
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+
+/* ================= Clear ================= */
+
+.clear {
+    clear: both;
+}
+
+
+/* ================= Input ================= */
+
+input[type="email"],
+input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+
+/* ================= Buttons ================= */
+
+input[type="submit"],
+input[type="reset"] {
+    padding: 10px 20px;
+    margin: 10px 5px;
+    cursor: pointer;
+}
+
+
+/* ================= HR ================= */
+
+hr {
+    clear: both;
+}
+
+
+/* ================= Iframe ================= */
+
+iframe {
+    display: block;
+    margin: 20px auto;
+}
+
+
+/* ================= Image ================= */
+
+.tech-image {
+    width: 400px;
+    border: 3px solid #2d89ef;
+    padding: 5px;
+}
+
+
+/* ================= Container ================= */
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+</style>
+</head>
+
+
+<body>
+
+<div class="container">
+
+<hr>
+
+
+<!-- نموذج التسجيل -->
+
+<h2>نموذج تسجيل</h2>
+
+<form>
+
+<label>البريد الإلكتروني:</label><br>
+
+<input
+type="email"
+placeholder="أدخل بريدك الإلكتروني">
+
+<br><br>
+
+
+<label>كلمة المرور:</label><br>
+
+<input
+type="password"
+placeholder="أدخل كلمة المرور">
+
+<br><br>
+
+
+<h3>اختر المهام التي تريدها:</h3>
+
+<input type="checkbox" id="task1">
+<label for="task1">تصفح الموقع</label>
+
+<br>
+
+<input type="checkbox" id="task2">
+<label for="task2">تحميل ملف PDF</label>
+
+<br>
+
+<input type="checkbox" id="task3">
+<label for="task3">مشاهدة الفيديو</label>
+
+<br><br>
+
+
+<h3>الجنس:</h3>
+
+<input
+type="radio"
+id="male"
+name="gender">
+
+<label for="male">ذكر</label>
+
+<br>
+
+<input
+type="radio"
+id="female"
+name="gender">
+
+<label for="female">أنثى</label>
+
+<br><br>
+
+
+<input
+type="submit"
+value="إرسال">
+
+<input
+type="reset"
+value="إعادة تعيين">
+
+</form>
+
+
+<!-- العنوان -->
+
+<h1>مرحباً بكم في موقعي</h1>
+
+<hr>
+
+
+<!-- تقنية المعلومات -->
+
+<h2>💻 ما هي تقنية المعلومات؟</h2>
+
+<p>
+تقنية المعلومات هي استخدام الحاسوب والبرامج والشبكات
+لجمع ومعالجة وتخزين وتبادل المعلومات، وهي من أهم
+مجالات التكنولوجيا الحديثة.
+</p>
+
+
+<!-- المجالات -->
+
+<h2>📌 مجالات تقنية المعلومات</h2>
+
+<ul>
+
+<li>البرمجة</li>
+
+<li>الشبكات</li>
+
+<li>قواعد البيانات</li>
+
+<li>الأمن السيبراني</li>
+
+<li>الذكاء الاصطناعي</li>
+
+</ul>
+
+
+<!-- الصورة -->
+
+<h2>🖼️ صورة عن التقنية</h2>
+
+<img
+class="tech-image"
+width="400"
+alt="تقنية المعلومات"
+src="data:image/svg+xml;utf8,
+<svg xmlns='http://www.w3.org/2000/svg' width='500' height='300'>
+
+<rect
+width='500'
+height='300'
+fill='%232d89ef'/>
+
+<rect
+x='100'
+y='60'
+width='300'
+height='150'
+fill='white'/>
+
+<rect
+x='150'
+y='220'
+width='200'
+height='15'
+fill='black'/>
+
+<circle
+cx='250'
+cy='135'
+r='45'
+fill='%232d89ef'/>
+
+<text
+x='250'
+y='145'
+text-anchor='middle'
+font-size='25'
+fill='white'>
+IT
+</text>
+
+</svg>">
+
+<div class="clear"></div>
+
+
+<!-- الفيديو الأول -->
+
+<h2>🎥 فيديو عربي عن تقنية المعلومات</h2>
+
+<iframe
+width="560"
+height="315"
+src="https://www.youtube.com/embed/CPH92qU2vmw"
+allowfullscreen>
+</iframe>
+
+
+<!-- رسالة الترحيب -->
+
+<h2>📢 رسالة ترحيبية</h2>
+
+<p>
+أهلاً وسهلاً بكم في موقعي الخاص بتقنية المعلومات،
+أتمنى أن تستفيدوا من المعلومات الموجودة وتتعرفوا
+على عالم التكنولوجيا والبرمجة.
+</p>
+
+
+<hr>
+
+
+<!-- الروابط -->
+
+<h2>🔗 الروابط</h2>
+
+<p>
+
+<a
+href="https://www.google.com"
+target="_blank">
+
+رابط Google
+
+</a>
+
+</p>
+
+
+<!-- الجدول -->
+
+<h2>📋 جدول مجالات تقنية المعلومات</h2>
+
+<table>
+
+<tr>
+
+<th>المجال</th>
+
+<th>الوصف</th>
+
+</tr>
+
+
+<tr>
+
+<td>البرمجة</td>
+
+<td>تطوير البرامج والتطبيقات</td>
+
+</tr>
+
+
+<tr>
+
+<td>الشبكات</td>
+
+<td>ربط الأجهزة وتبادل البيانات</td>
+
+</tr>
+
+
+<tr>
+
+<td>قواعد البيانات</td>
+
+<td>تخزين وتنظيم المعلومات</td>
+
+</tr>
+
+</table>
+
+
+<hr>
+
+
+<!-- صفحة ويب -->
+
+<h2>3- صفحة ويب</h2>
+
+<iframe
+src="https://www.wikipedia.org"
+width="700"
+height="400">
+</iframe>
+
+
+<hr>
+
+
+<!-- PDF -->
+
+<h2>1- ملف PDF</h2>
+
+<object
+data="https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf"
+type="application/pdf"
+width="700"
+height="500">
+
+<p>
+
+المتصفح لا يدعم عرض ملف PDF.
+
+<a
+href="https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf"
+target="_blank">
+
+اضغط هنا لفتح ملف PDF
+
+</a>
+
+</p>
+
+</object>
+
+
+<hr>
+
+
+<!-- خريطة Google -->
+
+<h2>2- خريطة Google</h2>
+
+<iframe
+src="https://www.google.com/maps?q=Taiz,Yemen&output=embed"
+width="700"
+height="450">
+</iframe>
+
+
+<hr>
+
+
+<!-- فيديو YouTube -->
+
+<h2>4- فيديو YouTube</h2>
+
+<iframe
+width="700"
+height="400"
+src="https://www.youtube.com/embed/aqz-KE-bpKQ"
+title="YouTube video"
+allowfullscreen>
+</iframe>
+
+
+<hr>
+
+
+<!-- النهاية -->
+
+<h3 class="visibility-example">
+شكراً لزيارتكم 🌹
+</h3>
+
+
+</div>
+
+</body>
+
+</html>
 /* ================= FONT ================= */
 
 body {
